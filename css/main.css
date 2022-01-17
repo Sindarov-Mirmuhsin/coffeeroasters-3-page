@@ -444,6 +444,11 @@ img {
   margin: 0 auto;
 }
 
+.coffee__container {
+  position: relative;
+  left: 125px;
+}
+
 .header__info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -747,11 +752,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 5px;
-}
-
-.coffee__container {
-  position: relative;
-  left: 125px;
 }
 
 .box__text {
