@@ -1,13 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Template Repo</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>coffeeroasters</title>
 </head>
 <body>
-
-</body>
-</html>
+  <h1 class="visually-hidden">Great coffee made simple</h1>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header__info">
+        <a class="header__link" href="./index.html">
+          <img
+          class="header__logo"
+          src="./images/group5.svg"
+          alt="coffeeroaster__logo"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">HOME</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">CREATE YOUR PLAN</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main">
+    <section class="main__sublist">
+      <div class="container">
+        <div class="main__list">
+          <h2 class="main__title">Create a plan</h2>
+          <p class="main__text">
+            Build a subscription plan that best fits your needs. We offer an
+            assortment of the best artisan coffees from around the globe
+            delivered fresh to your door.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <main class="works">
+    <section class="works__section">
+      <div class="container works__container">
+        <div class="works__sublist">
+          <h2 class="works__title">How it works</h2>
+          <div class="elements">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </div>
+          <ul class="works__list">
+            <li class="works__item">
+              <div class="works__number">01</div>
+              <h3 class="works__info">Pick your coffee</h3>
+              <p class="works__text">
+                Select from our evolving range of artisan coffees. Our beans
+                are ethically sourced and we pay fair prices for them. There
+                are new coffees in all profiles every month for you to try
+                out.
+              </p>
+            </li>
+            <li class="works__item">
+              <div class="works__number">02</div>
+              <h3 class="works__info">Choose the frequency</h3>
+              <p class="works__text">
+                Customize your order frequency, quantity, even your roast
+                style and grind type. Pause, skip or cancel your subscription
+                with no commitment through our online portal.
+              </p>
+            </li>
+            <li class="works__item">
+              <div class="works__number">03</div>
+              <h3 class="works__info">Receive and enjoy!</h3>
+              <p class="works__text">
+                We ship your package within 48 hours, freshly roasted. Sit
+                back and enjoy award-winning world-class coffees curated to
+                provide a distinct tasting experience.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <section class="coffee">
+    <div class="container">
+      <div class="coffee__info">
+        <ul class="coffee__list">
+          <li class="coffee__item">
+            <a class="coffee__link" href="./index.html"><h3 class="coffee__number">01</h3>
+              <p class="coffee__text">Preferences</p></a>
+            </li>
+            <span class="coffee__circle"></span>
+            <li class="coffee__item">
+              <a class="coffee__link" href="./index.html"><h3 class="coffee__number">02</h3>
+                <p class="coffee__text">Bean Type</p></a>
+              </li>
+              <span class="coffee__circle"></span>
+              <li class="coffee__item">
+                <a class="coffee__link" href="./index.html"><h3 class="coffee__number">03</h3>
+                  <p class="coffee__text">Quantity</p></a>
+                </li>
+                <span class="coffee__circle"></span>
+                <li class="coffee__item">
+                  <a class="coffee__link" href="./index.html">                  
+                    <h3 class="coffee__number">04</h3>
+                    <p class="coffee__text">Grind Option</p></a>
+                  </li>
+                  <span class="coffee__circle"></span>
+                  <li class="coffee__item">
+                    <a class="coffee__link" href="./index.html">                    
+                      <h3 class="coffee__number">05</h3>
+                    <p class="coffee__text">Deliveries</p></a>
+                  </li>
+                </ul>
+                
+                <div class="container coffee__container">
+                  <form
+                  class="form"
+                  action="https://echo.htmlacademy.ru"
+                  method="post"
+                  >
+                  <div class="box">
+                    <p class="box__text">How do you drink your coffee?</p>
+                    <img class="box__image" src="./images/path.svg" alt="element" />
+                  </div>
+                  
+                  <div class="label">
+                    <label class="label__list">
+                      <input class="label__input" type="radio" name="coffee" />
+                      <span class="input__controller">
+                        <h3 class="label__title">Capsule</h3>
+                        <div class="lable__box">
+                          <p class="label__text">
+                            Compatible with Nespresso systems and similar brewers
+                          </p>
+                        </div>
+                      </span>
+                    </label>
+                    
+                    <label class="label__list">
+                      <input class="label__input" type="radio" name="coffee" />
+                      <span class="input__controller">
+                        <h3 class="label__title">Filter</h3>
+                        <div class="lable__box">
+                          <p class="label__text">
+                            Compatible with Nespresso systems and similar brewers
+                          </p>
+                        </div>
+                      </span>
+                    </label>
+                    
+                    <label class="label__list">
+                      <input class="label__input" type="radio" name="coffee" />
+                      <span class="input__controller">
+                        <h3 class="label__title">Espresso</h3>
+                        <div class="lable__box">
+                          <p class="label__text">
+                            Compatible with Nespresso systems and similar brewers
+                          </p>
+                        </div>
+                      </span>
+                    </label>
+                  </div>
+                  
+                  <div class="box">
+                    <p class="box__text">What type of coffee?</p>
+                    <img
+                    class="box__image"
+                    src="./images/path3.svg"
+                    alt="element"
+                    />
+                  </div>
+                  
+                  <div class="box">
+                    <p class="box__text">How much would you like?</p>
+                    <img
+                    class="box__image"
+                    src="./images/path3.svg"
+                    alt="element"
+                    />
+                  </div>
+                  
+                  <div class="box">
+                    <p class="box__text">Want us to grind them?</p>
+                    <img
+                    class="box__image"
+                    src="./images/path3.svg"
+                    alt="element"
+                    />
+                  </div>
+                  
+                  <div class="box">
+                    <p class="box__text">How often should we deliver?</p>
+                    <img
+                    class="box__image"
+                    src="./images/path3.svg"
+                    alt="element"
+                    />
+                  </div>
+                  
+                  <div class="summary">
+                    <h2 class="summary__title">Order Summary</h2>
+                    <p class="summary__text">
+                      “I drink my coffee using
+                      <span class="summary__color">Capsules</span> , with a
+                      <span class="summary__color">_____</span> type of bean.
+                      <span class="summary__color">_____</span> , sent to me
+                      <span class="summary__color">_____</span>."
+                    </p>
+                  </div>
+                  
+                  <div class="right">
+                    <button class="right__button">Create my plan!</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <footer class="footer">
+          <div class="container footer__container">
+            <div class="footer__info">
+              <a class="footer__link" href="./index.html">
+                <img class="footer__logo" src="./images/logo.svg" alt="logo-coffee"
+                /></a>
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item">
+                      <a class="nav__link nav__link--btm" href="#">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link nav__link--btm" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link nav__link--btm" href="#"
+                      >Create your plan</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <div class="footer__links">
+                  <a class="footer__link footer__link--info" href="./index.html">
+                    <img
+                    class="footer__socialimg"
+                    src="./images/fb.svg"
+                    alt="facebook__logo"
+                    />
+                  </a>
+                  <a class="footer__link footer__link--info" href="./index.html">
+                    <img
+                    class="footer__socialimg"
+                    src="./images/tw.svg"
+                    alt="twitter__logo"
+                    />
+                  </a>
+                  <a class="footer__link footer__link--info" href="./index.html">
+                    <img
+                    class="footer__socialimg"
+                    src="./images/insta.svg"
+                    alt="instagram__logo"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </body>
+        </html>
+        

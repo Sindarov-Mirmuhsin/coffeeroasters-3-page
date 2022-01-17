@@ -1,0 +1,52 @@
+.label {
+	display: flex;
+}
+
+.label__list {
+	width: 268px;
+	background: #f4f1eb;
+	border: 2px solid transparent;
+	border-radius: 8px;
+}
+
+.label__list + .label__list {
+	margin-left: 23px;
+}
+
+.input__controller {
+	display: block;
+	width: 228px;
+	padding: 32px 28px 84px 28px;
+}
+
+.label__input:checked ~ .input__controller {
+	border-radius: 8px;
+	background-color: #0e8784;
+}
+
+.lable__box {
+	width: 172px;
+	padding-top: 20px;
+}
+
+.label__input {
+	display: none;
+}
+
+.label__title {
+	font-family: "Fraunces";
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #333d4b;
+	margin: 0;
+}
+
+.label__text {
+	font-family: Barlow;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #333d4b;
+	margin: 0;
+}

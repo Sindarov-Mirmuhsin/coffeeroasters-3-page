@@ -1,0 +1,143 @@
+.coffee__link {
+	display: flex;
+	align-items: center;
+
+	text-decoration: none;
+}
+
+.coffee__item {
+	list-style: none;
+}
+
+.coffee__item:hover {
+	color: #333d4b;
+	opacity: 0.6;
+}
+
+.coffee__item:active {
+	color: #333d4b;
+	opacity: 0.1;
+}
+
+.coffee__number {
+	font-family: "Fraunces";
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #0e8784;
+}
+
+.coffee__text {
+	font-family: "Fraunces";
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #333d4b;
+	margin-left: 29px;
+}
+
+.coffee__circle {
+	width: 255px;
+	height: 1px;
+	display: block;
+	text-align: center;
+	background-color: #83888f;
+	mix-blend-mode: normal;
+	opacity: 0.25;
+}
+
+.coffee__info {
+	display: flex;
+	width: 730px;
+	margin-bottom: 168px;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+}
+
+.coffee__container {
+	position: relative;
+	left: 125px;
+}
+
+.box__text {
+	width: 632px;
+	font-family: "Fraunces";
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: #83888f;
+}
+
+.box__image {
+	width: 18px;
+	height: 12px;
+	margin-left: 38px;
+}
+
+.summary {
+	width: 730px;
+	background-color: #333d4b;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 51px 64px;
+}
+
+.summary__title {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+.summary__text {
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 40px;
+	color: #fff;
+}
+
+.summary__color {
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 40px;
+	color: #0e8784;
+}
+
+.right {
+	display: flex;
+	justify-content: right;
+}
+
+.right__button {
+	background-color: #0e8784;
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: #fefcf7;
+	border-radius: 6px;
+	border: none;
+	padding: 15px 36px;
+	justify-content: right;
+}
+
+.right__button:hover {
+	background: #66d2cf;
+}
+
+.right__button:active {
+	background: #66d2cf;
+}

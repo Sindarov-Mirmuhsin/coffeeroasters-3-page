@@ -1,0 +1,36 @@
+.main__sublist {
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url("../images/group7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  padding: 137px 85px;
+  
+  .main__list {
+    width: 445px;
+    height: 176px;
+  }
+  
+  .main__title {
+    font-family: "Fraunces", "serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+    margin: 0 0 24px 0;
+  }
+  
+  .main__text {
+    font-family: "Barlow", "sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    margin: 0;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}

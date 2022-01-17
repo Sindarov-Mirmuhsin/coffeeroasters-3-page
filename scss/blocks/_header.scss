@@ -1,0 +1,41 @@
+.header__info {
+  display: flex;
+  align-items: center;
+  margin-top: 44px;
+  margin-bottom: 45px;
+  
+  .header__link {
+    margin-right: auto;
+  }
+  
+  .nav__list {
+    display: flex;
+  }
+  
+  .nav__item {
+    list-style: none;
+    padding-left: 32px;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    color: #83888f;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+  }
+  
+  .nav__link:hover {
+    color: #333d4b;
+  }
+
+}
+
+
+
+
+
